@@ -1,3 +1,7 @@
+if(window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    document.querySelector('link[rel="icon"]').setAttribute('href', 'img/icon_dark.svg')
+}
+
 const form = document.getElementById('form') ;
 console.log(form);
 

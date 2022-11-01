@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 8%;
 }
 
-#buttons > button, #buttons label {
+#buttons > button{
     display: block;
     margin: 10px ;
     width: 40px;
@@ -40,8 +40,12 @@ body::-webkit-scrollbar-thumb {
     font-weight: 900;
 }
 
-#buttons > button:hover, #buttons label:hover {
+#buttons > button:hover{
     background-color: #e200b1;
+}
+
+#buttons img {
+    vertical-align: middle;
 }
 
 #form {

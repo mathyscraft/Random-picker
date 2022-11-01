@@ -23,36 +23,37 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
-     showgrid="false"
+     showgrid="true"
      inkscape:zoom="11.490485"
-     inkscape:cx="0.30459984"
-     inkscape:cy="16.404877"
+     inkscape:cx="15.969735"
+     inkscape:cy="12.575622"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1787" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2" />
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:none;stroke:#f1f1f1;stroke-width:0.927365;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2.9;stroke-dasharray:none;stroke-dashoffset:13.6;stroke-opacity:1;paint-order:normal"
-       id="rect846"
-       width="4.9095893"
-       height="6.4154387"
-       x="1.8955874"
-       y="1.1272569"
-       ry="1.3208257" />
     <g
-       id="g1787"
-       transform="translate(-1.3815779,-0.34539447)">
+       id="shape"
+       transform="matrix(0.87083556,0,0,0.87083556,-0.6130921,0.24761977)">
+      <rect
+         style="fill:none;stroke:#f1f1f1;stroke-width:0.927365;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2.9;stroke-dasharray:none;stroke-dashoffset:13.6;stroke-opacity:1;paint-order:normal"
+         id="rect846-1"
+         width="4.9095893"
+         height="6.4154387"
+         x="2.2179556"
+         y="1.0351517"
+         ry="1.3208257"
+         transform="translate(1.3815779,0.34539447)" />
       <rect
          style="fill:#f1f1f1;fill-opacity:1;stroke:#f1f1f1;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2.9;stroke-dasharray:none;stroke-dashoffset:13.6;stroke-opacity:1;paint-order:normal"
-         id="rect1497"
+         id="rect1497-4"
          width="3.177629"
          height="0.36378378"
          x="1.7499987"
@@ -61,7 +62,7 @@
       <path
          sodipodi:type="star"
          style="fill:#f1f1f1;fill-opacity:1;stroke:#f1f1f1;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2.9;stroke-dasharray:none;stroke-dashoffset:13.6;stroke-opacity:1;paint-order:normal"
-         id="path1703"
+         id="path1703-7"
          inkscape:flatsided="true"
          sodipodi:sides="3"
          sodipodi:cx="18.493563"
@@ -72,10 +73,10 @@
          sodipodi:arg2="-1.0414917"
          inkscape:rounded="0.03"
          inkscape:randomized="0"
-         d="m 17.427463,11.727094 c 0.09723,-0.0554 3.220219,1.771503 3.219581,1.883401 -6.39e-4,0.111898 -3.144276,1.90304 -3.240863,1.846538 -0.09659,-0.0565 -0.07594,-3.674543 0.02128,-3.729939 z"
-         transform="matrix(0.33347298,0,0,0.38725117,-1.0264979,-0.86139253)"
-         inkscape:transform-center-x="-0.1922685"
-         inkscape:transform-center-y="-0.010956027" />
+         transform="matrix(0.42423112,0,0,0.4944731,-2.5058938,-2.2417828)"
+         inkscape:transform-center-x="-0.24459641"
+         inkscape:transform-center-y="-0.013989499"
+         d="m 17.427463,11.727094 c 0.09723,-0.0554 3.220219,1.771503 3.219581,1.883401 -6.39e-4,0.111898 -3.144276,1.90304 -3.240863,1.846538 -0.09659,-0.0565 -0.07594,-3.674543 0.02128,-3.729939 z" />
     </g>
   </g>
 </svg>
