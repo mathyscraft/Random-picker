@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-box">
+        <div id="buttons">
+            <button onclick="addChoice()">+</button>
+            <button onclick="deleteChoice()">-</button>
+            <button onclick="exportData()"><img src="export.svg"></button>
+            <button onclick="importData()"><img src="import.svg"></button>
+        </div>
+        <div id="form">
+            <input type="text" placeholder="Choix 1" required>
+            <input type="text" placeholder="Choix 2" required>
+            <button id="choose-button" onclick="choose()">Choisir !</button>
+        </div>
+    </div>
+    <div id="result" hidden></div>
+    <footer>
+        <p>&copy; 2022 Mathys </p>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+
+html, body {
+    background-color: #10002b;
+    font-family: 'Poppins', 'Open Sans', 'Segoe UI', sans-serif;
+    scrollbar-color: #faf600 transparent ;
+}
+body::-webkit-scrollbar {
+    width: 5px;
+    min-height: 8px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #faf600;
+    border-radius: 3px;
+}
+
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    translate: -30px;
+}
+
+#buttons {
+    margin-top: 8%;
+}
+
+#buttons > button, #buttons label {
+    display: block;
+    margin: 10px ;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #bd0094;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#buttons > button:hover, #buttons label:hover {
+    background-color: #e200b1;
+}
+
+#form {
+    margin-top: 10%;
+    text-align: center;
+}
+
+#form input {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 5px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    background-color: #cfcc00;
+    text-align: center;
+    color: #10002b;
+    font-size: 16px;
+}
+
+#form input:hover {
+    background-color: #faf600;
+}
+
+#form input::placeholder {
+    color: #10002b;
+    font-style: italic;
+}
+
+#form button {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: transparent;
+    border: 3px solid #bd0094;
+    border-radius: 30px;
+    color: #f1f1f1;
+    font-size: 18px;
+}
+
+#form button:hover {
+    background-color: #bd0094;
+    transition: ease 200ms;
+}
+
+#result {
+    transition: 1s;
+
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    border: 3px dashed #faf600;
+    border-radius: 10px;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 20px;
+}
+
+@keyframes show-result {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    color: #f1f1f1;
+    float: right;
+    margin-right: 20%;
+}
